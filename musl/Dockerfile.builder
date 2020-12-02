@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM ppc64le/alpine:3.12
 
 RUN apk add --no-cache \
 		bzip2 \
